@@ -1,6 +1,5 @@
 [[redirects]]
-  from = "/search"
-  to = "https://musing-minsky-cb6990.netlify.app/mainpage"
+  from = "/"
+  to = "/mainpage"
   status = 200
-  force = true
-  headers = {X-From = "Netlify"}
+  force = false
