@@ -44,7 +44,8 @@ export default class SignUp extends Component {
               placeholder="last name"
             />
           </FormGroup>
-          <Button className="btn-enter" style={{backgroundColor:"red"}} type="submit" href="/main">
+          <Button className="btn-enter" style={{backgroundColor:"red"}} type="submit" 
+          href="/mainpage">
             <span>Giriş</span>
           </Button>
         </Form>
