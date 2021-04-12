@@ -52,7 +52,7 @@ export default class App extends Component {
         <Switch>
           <Route
             exact
-            path="/"
+            path="/signup"
             render={(props) => (
               <SignUp
                 {...props}
@@ -67,7 +67,7 @@ export default class App extends Component {
 
           <Route
             exact
-            path="/mainpage"
+            path="/main"
             render={(props) => (
               <Cards {...props} userName={this.state.userName} />
             )}
