@@ -27,7 +27,7 @@ export default function AddNewCard(props) {
 
             <p
               style={{
-                fontSize: "40px",
+                fontSize: "30px",
                 color: "white",
                 textDecoration: "underline",
               }}
