@@ -1,1 +1,6 @@
-/* /index.html 200
+[[redirects]]
+  from = "/search"
+  to = "https://musing-minsky-cb6990.netlify.app/mainpage"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
