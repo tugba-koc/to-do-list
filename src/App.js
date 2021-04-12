@@ -56,7 +56,7 @@ export default class App extends Component {
             render={(props) => (
               <SignUp
                 {...props}
-                handleFormSubmit={this.handleFormSubmit}
+                handleFormSubmi={this.handleFormSubmit}
                 handleChange={this.handleChange}
                 userName={this.state.userName}
                 userLastName={this.state.userLastName}
