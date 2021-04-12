@@ -50,7 +50,7 @@ export default class App extends Component {
     return (
       <div>
         <Switch>
-          <Route
+          {/* <Route
             exact
             path="/"
             render={(props) => (
@@ -63,11 +63,11 @@ export default class App extends Component {
                 onKeyPress={this.onKeyPress}
               />
             )}
-          ></Route>
+          ></Route> */}
 
           <Route
             exact
-            path="/mainpage"
+            path="/"
             render={(props) => (
               <Cards {...props} userName={this.state.userName} />
             )}
